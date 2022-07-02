@@ -7,7 +7,6 @@ Style trouble solution elements. */
 .steptroubleshooting,
 .info,
 .stepxmp,
-.troubleSolution,
 .choices,
 .substeps {
   font-style: normal;
@@ -18,11 +17,11 @@ Style trouble solution elements. */
 }
 
 /* Style trouble solution element. Add a margin between trouble solution elements.
-Span the left border across the cause and remedy elements. */
+Span the left border across the cause and remedy elements. 
 .troubleSolution {
   margin: 0px 0px 25px 0px;
   border-left: 5px solid #000;
-}
+} */
 
 /* Style the step element children captions. */
 .stepresult::before,
