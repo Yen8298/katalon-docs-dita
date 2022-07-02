@@ -49,10 +49,10 @@
   margin: 0px;
 }*/
 
-/* Set margins between steps. */
+/* Set margins between steps. 
 .step ~ .step {
   margin-top: 10px;
-}
+}*/
 
 /* Set margins between substeps. */
 .substep,
@@ -62,13 +62,13 @@
 
 /* Add captions before prerequisite elements. */
 .prereq::before {
-  content: "Before you begin";
+  content: "Requirements";
 }
 
-/* Add captions before postrequisite elements. */
+/* Add captions before postrequisite elements. 
 .postreq::before {
   content: "Next steps";
-}
+} */
 
 /* Add captions before task topics with the @outputclass="process" attribute set on their root elements. */
 article.process .steps::before,
