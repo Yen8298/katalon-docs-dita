@@ -9,6 +9,7 @@
 .condition::before,
 .context::before,
 .result::before,
+.tasktroubleshooting::before,
 .example::before {
   display: block;
   clear: both;
@@ -125,7 +126,8 @@ article:not(.process) .steps-unordered::before {
   content: "Result";
 }
 
-.troubleshooting::before {
+/* Add captions before tasktroubleshooting and task troubleshooting elements. */
+.tasktroubleshooting::before {
   content: "Troubleshooting";
 }
 
