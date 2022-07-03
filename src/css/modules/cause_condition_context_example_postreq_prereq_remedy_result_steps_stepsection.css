@@ -197,7 +197,7 @@ Style the cause and remedy titles. */
 }
 
 /* Fix margins for single-step procedures. */
-.taskbody > div.step {
+div.step {
   padding: 0px;
   margin: 30px 0px 5px 0px;
 }
@@ -209,10 +209,12 @@ Style the cause and remedy titles. */
   border-left: none;
 }
 
-.remedy > div.stepxmp:only-child {
-  margin-left: 20px;
-  padding: 25px 0 0 0;
-  border-left: none;
+.remedy > div.step > .stepxmp {
+  padding: 0px;
+}
+
+.remedy > div.step > .info {
+  padding: 0px;
 }
 
 /* Fix example placement */

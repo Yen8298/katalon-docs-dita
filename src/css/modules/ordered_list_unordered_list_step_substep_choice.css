@@ -27,7 +27,7 @@ Align unordered lists with ordered lists. */
   
   /* Set margins between steps. */
   .step {
-    margin-top: 25px;
+    margin-top: 5px;
   }
   
   /* Set margins between choices and substeps. */

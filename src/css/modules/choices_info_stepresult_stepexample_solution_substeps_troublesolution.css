@@ -70,13 +70,13 @@ Span the left border across the cause and remedy elements.
 }
 
 /* Remove the left border for steps in single-step procedures. */
-.taskbody > div.step > .cmd,
-.taskbody > div.step > .info,
-.taskbody > div.step > .stepresult,
-.taskbody > div.step > .stepxmp,
-.taskbody > div.step > .steptroubleshooting,
-.taskbody > div.step > .troubleSolution,
-.taskbody > div.step > .choices,
-.taskbody > div.step > .substeps {
+div.step > .cmd,
+div.step > .info,
+div.step > .stepresult,
+div.step > .stepxmp,
+div.step > .steptroubleshooting,
+div.step > .troubleSolution,
+div.step > .choices,
+div.step > .substeps {
   border-left: none;
 }
